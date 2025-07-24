@@ -1,0 +1,38 @@
+# 依存関係
+node_modules/
+
+# 環境変数（本番環境ではRailwayの設定を使用）
+.env.local
+.env.development
+.env.test
+
+# ログ
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ランタイムデータ
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# ディレクトリ
+.npm
+.eslintcache
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# 一時ファイル
+*.tmp
+*.temp
